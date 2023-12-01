@@ -1,5 +1,5 @@
 def main():
-    with open("input01.txt", "r") as f:
+    with open("test.txt", "r") as f:
         data = f.readlines()
 
 
