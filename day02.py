@@ -1,4 +1,3 @@
-import re
 def main():
     with open("input02.txt", "r") as f:
         data = f.read().splitlines()
