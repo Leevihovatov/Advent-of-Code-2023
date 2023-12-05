@@ -53,7 +53,7 @@ def main():
             if checked_range > int(seeds_range[i]):
                 break # The not wanted additional loop. Range here is over the seed range
             new_source = int(seeds_start[i])+checked_range
-            min_package = 999999999999999999999999999999999 # :D
+            min_package = 999999999999999999999999999999999999 # :D
             
             for map in data:
                 source = new_source
