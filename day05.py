@@ -72,6 +72,7 @@ def main():
                         found = True
                 if not found:
                     new_source = int(source)
+                    # Forgot to check the group here, happened to work for my input without
             if new_source < min_location:
                 min_location = new_source
 
