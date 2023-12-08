@@ -40,6 +40,8 @@ def main():
     # Solution: Find the number of steps for each cycle to reach the goal
     #           and find the smallest number divisible by the loops step numbers
     #           That second part took way too long to implement correctly :D
+    
+    # Apparently there is ready LCM function which could have done all this
     found_in = []
     for current in start_nodes:
         found = False
