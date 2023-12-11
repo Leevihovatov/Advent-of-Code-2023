@@ -20,7 +20,7 @@ def main():
                     except:
                         pass
     # Calculate galaxy-wise distances
-    def galaxy_distances(expanded, galaxies = galaxies, empty_columns = empty_columns, empty_rows = empty_rows):   
+    def galaxy_distances(expanded):   
         total = 0
         for i,g in enumerate(galaxies):
             for j in range(i+1,len(galaxies)):
